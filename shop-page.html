@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <script src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header id="home">
+        
+        <div class="content-wrap">
+            <nav class="header-top">
+                <div class="logo">
+                    <img src="img/logo7.svg" alt="logo" class="logo-img">
+                    <h2>AutoSpares</h2>
+                </div>
+                <select name="Categories" id="select-categories" class="select-categories">
+                    <option value="">Всі Категорії</option>
+                </select>
+                <ul class="menu-list">
+                    <li>
+                        <a href="index.html#home">Головна</a>
+                    </li>
+                    <li>
+                        <a href="shop-page.html">Магазин</a>
+                    </li>
+                    <li>
+                        <select name="Catalog" id="select-catalog" class="select-catalog">
+                            <option value="">Каталог</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href="shop-page.html">Аксесуари</a>
+                    </li>
+                    <li>
+                        <a href="contact-page.html">Контакти</a>
+                    </li>
+                </ul>
+                <div class="menu-icons">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </nav>
+            </div>
+            <hr class="contact-line">
+    </header>
+    <section class="products">
+            <div class="contact-data-wrap1">
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Головна  &#62;  </a>
+                <h3>Товари</h3>
+            </div>
+            <hr class="contact-line">
+            <div class="content-wrap">
+            <div class="products-wrap">
+                <div class="sidebar">
+                    <div class="categories-search">
+                        <h3>Статус товару:</h3>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="availeble" id="availeble">
+                        <label for="availeble">Є в наявності</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="disable" id="disable">
+                        <label for="disable">Немає в наявності</label>
+                    </div>
+                    </div>
+                    <div class="categories-search">
+                        <h3>Бренд:</h3>
+                    <div class="wrap-checkbox-label">   
+                        <input type="checkbox" name="Amio" id="Amio">
+                        <label for="Amio">Amio</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Bosch" id="Bosch">
+                        <label for="Bosch">Bosch</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Mercury" id="Mercury">
+                        <label for="Mercury">Mercury</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Westa" id="Westa">
+                        <label for="Westa">Westa</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="4MAX" id="4MAX">
+                        <label for="4MAX">4MAX</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="BERGA" id="BERGA">
+                        <label for="BERGA">BERGA</label>
+                    </div>
+                
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Clean" id="Clean">
+                        <label for="Clean">Clean</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Daewoo" id="Daewoo">
+                        <label for="Daewoo">Daewoo</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Electric" id="Electric">
+                        <label for="Electric">Electric</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Fabi" id="Fabi">
+                        <label for="Fabi">Febi</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Hagen" id="Hagen">
+                        <label for="Hagen">Hagen</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Iveco" id="Iveco">
+                        <label for="Iveco">Iveco</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="Klifex" id="Klifex">
+                        <label for="Klifex">Klifex</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="MAPO" id="MAPO">
+                        <label for="MAPO">MAPO</label>
+                    </div>
+                    </div>
+                    <div class="categories-search">
+                        <h3>Доставка:</h3>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="quickdelivery" id="quickdelivery">
+                        <label for="quickdelivery">Швидка доставка</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="deliveryEU" id="deliveryEU">
+                        <label for="deliveryEU">Доставка з ЄС</label>
+                    </div>
+
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="freedelivery" id="freedelivery">
+                        <label for="freedelivery">Безкоштовна доставка</label>
+                    </div>
+                    </div>
+                    <div class="categories-search">
+                        <h3>Категорія товару:</h3>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="1" id="1">
+                        <label for="1">Автофільтри</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="2" id="2">
+                        <label for="2">Гальмівна система</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="3" id="3">
+                        <label for="3">Система кондиціювання</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="4" id="4">
+                        <label for="4">Система запалювання</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="5" id="5">
+                        <label for="5">Кузов автомобіля</label>
+                    </div>
+                    <div class="wrap-checkbox-label">
+                        <input type="checkbox" name="6" id="6">
+                        <label for="6">Автомобільні кріплення</label>
+                    </div>
+                    </div>
+                </div>
+            <div class="goods-wrap">
+                <div class="goods">
+                    <div class="goods-img goods4"></div>
+                    <h3 class="goods-name">Оливний фільтр Bosch</h3>
+                    <p class="goods-description">Оливний фільтр — найважливіша деталь очисної системи автомобіля.</p>
+                    <div class="stars">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <h3 class="reviews">(99) Відгуків</h3>
+                    </div>
+                    <div class="price">175 грн</div>
+                </div>
+                <div class="goods goodspad">
+                    <div class="goods-img goods5"></div>
+                    <h3 class="goods-name">Гальмівні колодки FEBI</h3>
+                    <p class="goods-description"> Призначені для зберігання необхідного ступеня тертя.</p>
+                    <div class="stars">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <h3 class="reviews">(8) Відгуків</h3>
+                    </div>
+                    <div class="price">985 грн</div>
+                </div>
+            </div>
+            <div class="goods-wrap">
+                <div class="goods">
+                    <div class="goods-img goods6"></div>
+                    <h3 class="goods-name">Дзеркало бічне Vitol</h3>
+                    <p class="goods-description">Бокові дзеркала Vitol забезпечать вашу безпеку на дорозі.</p>
+                    <div class="stars">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <h3 class="reviews">(55) Відгуків</h3>
+                    </div>
+                    <div class="price">869 грн</div>
+                </div>
+                <div class="goods goodspad">
+                    <div class="goods-img goods7"></div>
+                    <h3 class="goods-name">Компресор кондиціонера</h3>
+                    <p class="goods-description">Кондиціювання повітря для створення комфортних умов експлуатації.</p>
+                    <div class="stars">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <img src="img/star.svg" alt="">
+                        <h3 class="reviews">(74) Відгуків</h3>
+                    </div>
+                    <div class="price">7 230 грн</div>
+                </div> 
+            </div>  
+        </div>
+        <div class="btns btns-shop-page">
+            <a href="#" class="btn1">&#8592;</a>
+            <a href="#" class="btn2">&#8594;</a>
+        </div> 
+        </div>
+    </section>
+    <footer>
+        <div class="bg-footer">
+        <div class="content-wrap">
+            <div class="wrap-footer">
+            <div class="column1">
+                <div class="logo logo-footer">
+                    <img src="img/logo7.svg" alt="logo" class="logo-img">
+                    <h2>AutoSpares</h2>
+                </div>
+                <div class="wrap5">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3 class="location">Наше розташування:</h3>
+            </div>
+                <h2 class="location1">01.  вул.Незалежності 112, Київ</h2>
+                <h2 class="location1">02.  вул.Солотвинська 1, Львів</h2>
+            </div>
+            <div class="column2">
+                <h2 class="section-footer">Популярні категорії</h2>
+                <hr class="line-footer">
+                <h3 class="category">Гальмівна система</h3>
+                <h3 class="category">Автохімія</h3>
+                <h3 class="category">Кузов і складові</h3>
+                <h3 class="category">Моторна олива</h3>
+                <h3 class="category">Амортизатори</h3>
+            </div>
+            <div class="column3">
+                <h2 class="section-footer">Важливі посилання</h2>
+                <hr class="line-footer">
+                <h3 class="category">Про Нас</h3>
+                <h3 class="category">Контакти</h3>
+                <h3 class="category">Часті запитання</h3>
+                <h3 class="category">Останні новини</h3>
+                <h3 class="category">Відстежити замовлення</h3>
+            </div>
+            <div class="column4">
+                <h2 class="section-footer">Отримуйте останні новини!</h2>
+                <hr class="line-footer">
+                <h3 class="sub-text">Введіть свою електронну адресу, щоб отримувати останні оновлення про наші продукти.</h3>
+                <input type="email" class="input-email2" placeholder="Електронна адреса"><a href="#" class="btn-sub2">Підписатися</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="content-wrap">
+            <div class="wrap-footer2">
+            <h4 class="copyright">© 2023 AutoSpares. Всі права захищено.</h4>
+            <div class="pay-systems">
+                <img src="img/Paypal.svg" alt="">
+                <img src="img/Visa.svg" alt="">
+                <img src="img/MasterCard.svg" alt="">
+                <img src="img/AmericanExpress.svg" alt="">
+                <img src="img/Discover.svg" alt="">
+            </div>
+            <div class="social-links">
+                <h3 class="social-text">Наші соцмережі: </h3>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
+                      
